@@ -4,5 +4,7 @@ exports.config = {
   capabilities: {
     browserName: 'firefox'
   },
-  baseUrl: 'http:localhost:8787/'
+  baseUrl: 'http:localhost:8787/',
+  chromeOnly: true,
+  directConnect: true
 };
